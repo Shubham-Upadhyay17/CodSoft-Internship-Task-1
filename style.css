@@ -1,0 +1,157 @@
+.bgimg {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/card2.jpg); /* Change the background image URL */
+
+    color: rgb(33, 158, 200);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.text h2 {
+    font-size: 60px;
+    color: rgb(33, 158, 200);
+}
+
+.text h6 {
+    color: black;
+}
+
+.contact-head h1 {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.contact-head h6 {
+    margin-top: 20px;
+    color: black; /* Update color for better visibility */
+}
+
+.contact-head img {
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+    opacity: 80%;
+    margin-left: 5%;
+}
+
+.contact-head img:hover {
+    opacity: 100%;
+}
+
+.contact-head hr {
+    width: 60%;
+    border-color: rgba(72, 233, 233, 0.851); /* Update border color */
+}
+
+/* Add this style to adjust the spacing between navbar links */
+.navbar-nav a:not(:last-child) {
+    margin-right: 20px;
+}
+/* ... (your existing styles) ... */
+
+.skills {
+    background-image: url(assets/servicebg.png); /* Change the background image URL */
+    opacity: 0.90;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px; /* Adjust the margin as needed */
+}
+
+.sk-head {
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    color: rgb(19, 27, 31); /* Change the text color for better visibility */
+}
+
+.skills ul {
+    list-style: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 20px;
+    color: rgb(21, 28, 30); /* Change the text color for better visibility */
+}
+
+.skills .prog {
+    width: 30%;
+    height: 70%;
+    margin-left: 5%;
+    position: relative;
+    top: 140px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgba(117, 250, 255, 0.767);
+    border-radius: 15px;
+}
+
+.contact-form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 18px;
+    color: black; /* Change the text color for better visibility */
+}
+
+.contact-form form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #17a2b8; /* Change the button background color */
+    color: white; /* Change the button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #138496; /* Change the button background color on hover */
+}
+
+/* ... (remaining styles) ... */
